@@ -1,0 +1,50 @@
+[
+  {
+    "font": "russellsquare32",
+    "original_glyphs": 314,
+    "new_glyphs": 2290,
+    "added": 1976,
+    "unicode_coverage": 2113,
+    "atlas": [
+      2048,
+      4096
+    ],
+    "hardware_validated": false
+  },
+  {
+    "font": "eurostileltstdbold32",
+    "original_glyphs": 337,
+    "new_glyphs": 2313,
+    "added": 1976,
+    "unicode_coverage": 2113,
+    "atlas": [
+      2048,
+      4096
+    ],
+    "hardware_validated": false
+  },
+  {
+    "font": "ishimura_sans_bold",
+    "original_glyphs": 340,
+    "new_glyphs": 2317,
+    "added": 1977,
+    "unicode_coverage": 2113,
+    "atlas": [
+      2048,
+      4096
+    ],
+    "hardware_validated": false
+  },
+  {
+    "font": "drmercer32",
+    "original_glyphs": 234,
+    "new_glyphs": 2268,
+    "added": 2034,
+    "unicode_coverage": 2113,
+    "atlas": [
+      2048,
+      4096
+    ],
+    "hardware_validated": false
+  }
+]

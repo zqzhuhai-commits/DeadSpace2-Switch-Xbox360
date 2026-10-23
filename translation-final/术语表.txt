@@ -1,0 +1,19 @@
+本工程统一用语
+Isaac Clarke：艾萨克·克拉克
+Nicole Brennan：妮可·布伦南
+Ellie Langford：艾莉·兰福德
+Nolan Stross：诺兰·斯特罗斯
+Daina Le Guin：戴娜·勒古恩
+Hans Tiedemann：汉斯·泰德曼
+Marker：神印
+Necromorph：尸变体
+Unitology：统一教
+Convergence：聚合
+Ishimura：石村号
+Sprawl / Titan Station：泰坦空间站
+Stasis：静滞
+Kinesis：念力
+Locator：定位器
+Power Node：能量节点
+Credits：信用点
+Make Us Whole：让我们归一

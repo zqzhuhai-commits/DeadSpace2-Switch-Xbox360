@@ -1,0 +1,14 @@
+{
+  "total": 6894,
+  "translated": 5253,
+  "preserved": 1641,
+  "pending": 0,
+  "source_matches_original": true,
+  "protected_tokens_passed": true,
+  "binary_rebuild_passed": true,
+  "glossary_normalized_entries": 11,
+  "linguistic_review": "结构全量检查及内容抽查，不代表逐句语义终审",
+  "hardware_validated": false,
+  "input_lh2_sha256": "d7eb7e6a191cbb678790e7dc17966e128899d78aecac35dd703a6e6b6d630ce4",
+  "checked_lh2_sha256": "79c80ef23b76365be89b3f5ad7a33f7c174f445bdf60a6b778f23ef2ab8ae049"
+}

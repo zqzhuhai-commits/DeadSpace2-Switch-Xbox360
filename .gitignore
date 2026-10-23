@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+current/v0.4/Source/payload_v04.S
+current/v0.4/Source/DS2_Tool_v04.exe
+*.openai-download-*

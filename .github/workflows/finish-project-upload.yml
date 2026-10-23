@@ -1,0 +1,41 @@
+name: Complete project file upload
+on:
+  push:
+    paths:
+      - '.upload-parts/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reassemble and verify large project files
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, hashlib, shutil
+          manifest = Path('.upload-parts/manifest.json')
+          if manifest.exists():
+              for item in json.loads(manifest.read_text()):
+                  target = Path(item['path'])
+                  assert not target.is_absolute() and '..' not in target.parts
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with target.open('wb') as out:
+                      for part in item['parts']:
+                          p = Path(part)
+                          assert p.parts[0] == '.upload-parts' and '..' not in p.parts
+                          out.write(p.read_bytes())
+                  assert target.stat().st_size == item['size']
+                  assert hashlib.sha256(target.read_bytes()).hexdigest() == item['sha256']
+              shutil.rmtree('.upload-parts')
+      - name: Commit complete files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete verified large project files'
+            git push
+          fi

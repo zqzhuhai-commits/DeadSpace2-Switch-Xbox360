@@ -1,0 +1,20 @@
+{
+  "total_entries": 6894,
+  "translated_entries": 5253,
+  "preserved_entries": 1641,
+  "pending_entries": 0,
+  "scope": "All entries in the supplied english_original.lh2 only",
+  "source_index_id_integrity": true,
+  "control_tokens_and_markup_preserved": true,
+  "source_binary_roundtrip": true,
+  "translated_binary_roundtrip": true,
+  "original_sha256": "080dc4cf580229c63a64e5d27aa75c5d517c3d001ddc27d9405dbd206fcd05fa",
+  "output_sha256": "d7eb7e6a191cbb678790e7dc17966e128899d78aecac35dd703a6e6b6d630ce4",
+  "output_bytes": 336277,
+  "translation_complete_for_supplied_entries": true,
+  "full_game_text_extraction_verified": false,
+  "full_viv_integrated": false,
+  "chinese_font_hardware_validated": false,
+  "gameplay_and_layout_verified": false,
+  "installable_patch_ready": false
+}

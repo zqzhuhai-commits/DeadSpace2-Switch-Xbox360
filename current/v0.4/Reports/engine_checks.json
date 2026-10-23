@@ -1,0 +1,17 @@
+{
+  "native_engine": "WinAPI core compiled with POSIX shim, not Windows UI execution",
+  "checks": [
+    "original: byte verification and unrelated data preservation passed",
+    "v02_upgrade: byte verification and unrelated data preservation passed",
+    "mixed: byte verification and unrelated data preservation passed",
+    "already installed: refused without output",
+    "duplicate/missing target: refused",
+    "modified source resource: refused",
+    "out-of-bounds entry: refused",
+    "existing output preserved",
+    "automatic backup and install passed",
+    "install failure rollback passed"
+  ],
+  "complete_original_viv_tested": false,
+  "hardware_tested": false
+}

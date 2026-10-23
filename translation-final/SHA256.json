@@ -1,0 +1,12 @@
+{
+  "required_chinese_characters.txt": "23267e9ed654b0f8c76d703b3f2df92543516c842fe89b8795672d27c2908e32",
+  "tools/lh2_text.py": "d2b4ee65805b4828ddd8aa1dc7701f21c781c93410313d4b45d423cf915b3901",
+  "tools/rebuild_final.py": "782bbfd2d50f3e7027f1de08dbe5d27cb7af32419ce03c92559539c23df56d9d",
+  "translation/english_original.lh2": "080dc4cf580229c63a64e5d27aa75c5d517c3d001ddc27d9405dbd206fcd05fa",
+  "translation/translation_bilingual.csv": "8dd6fce451821d91f70fd0d8ad77467567f3dd7262cbb2c743c7216792a852b4",
+  "translation/zh_CN_final.json": "5d69f8739d5042a11cb54a6c6b3e68781fa166969af1f8494a35eb4ae34d550c",
+  "translation/zh_CN_final.lh2": "d7eb7e6a191cbb678790e7dc17966e128899d78aecac35dd703a6e6b6d630ce4",
+  "validation_report.json": "091290ce92fcbbef7b5bce9fdb7063aaada9b8664afa6445511f9a40fe3c5a67",
+  "使用说明.txt": "7ab4dec373d74e5898a8ceb86aacc56506fe0259327f72609032a500c48bd97f",
+  "术语表.txt": "2da885a79aa59d007a2aa120e60f3570d0ad72e17b67359ba9e15a2360f33ca2"
+}

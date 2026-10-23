@@ -1,0 +1,45 @@
+死亡空间2 Xbox 360 简体中文翻译资源最终版
+
+交付范围
+本包已处理附件所含english_original.lh2的全部6894条索引：
+中文译文：5253条。
+保留原样：1641条，主要为制作人员姓名、品牌、技术标识、数值、按键名和格式占位符。
+待翻译：0条。
+此前已有译文予以保留，并补齐原工程剩余3189条待处理项；统一了部分术语。
+“最终版”仅指本次所提供语言文件的翻译资源已补齐，不代表完整游戏补丁已通过实机验证。
+
+核心文件
+translation/zh_CN_final.lh2：已重建的Xbox 360大端LH2中文语言数据。
+translation/zh_CN_final.json：完整双语索引，可继续校对；只编辑translation字段。
+translation/translation_bilingual.csv：可用Excel查看的中英对照表。
+translation/english_original.lh2：原始语言数据，用于比对和回退。
+tools/lh2_text.py：LH2解析与重建工具，Python 3标准库，无第三方依赖。
+tools/rebuild_final.py：重建中文LH2并检查索引、ID、源文、变量、按钮标记、换行及二进制往返一致性。
+validation_report.json：本次实际执行生成的检查结果。
+required_chinese_characters.txt：译文使用的1964个去重汉字，供后续制作字库；此文件本身不是字库。
+术语表.txt：核心人物与术语。
+SHA256.json：包内文件校验值。
+
+重建方法
+解压后，在目录中运行：
+  python tools/rebuild_final.py
+Windows也可运行：
+  py -3 tools/rebuild_final.py
+该命令覆盖translation/zh_CN_final.lh2，并更新validation_report.json。
+
+集成说明
+本包不是bigfile0.viv，也不是8CA715C3完整容器，不能直接改名覆盖游戏。
+正确后续步骤为：在匹配版本的原始资源容器内定位本LH2语言资源，按容器格式替换并更新相关尺寸、偏移和压缩信息，同时接入支持本译文字形的字库，再重新封装。
+附件没有完整VIV、字库和可验证的容器打包信息，因此本次无法完成上述集成。
+不要把LH2重建成功理解为已经验证游戏可启动或中文可显示。
+
+已验证
+全部6894条源索引、ID与源文保持一致。
+无空翻译字段。
+按钮控制标记、变量、尖括号标记及换行检查通过。
+原始LH2无修改重建逐字节一致。
+中文LH2重读文本与JSON逐条一致，二次重建逐字节一致。
+
+尚未验证
+附件是否包含游戏全部文本；中文字体是否覆盖全部字形；VIV整体集成；实机启动、字幕布局、长文本溢出与全流程表现。
+本包不包含已完成上述验证的可安装汉化补丁。

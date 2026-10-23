@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "813f771d6c19b7581e67755d73e80409c98efde4d21eb5d4ecb2032e257f3094"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2617,
+      "sha256": "9a10d2eaa09ad28327babd8029a3cb881efd1740974f9ae94c1dd24940ec04e8"
+    },
+    {
+      "path": "archives/DS2_Chinese_Translation_Final.zip",
+      "bytes": 1042747,
+      "sha256": "7205b914f96e2b9a932b9411b8f6584b324af6469f915a099343da35b9130186"
+    },
+    {
+      "path": "archives/DS2_Localization_Tool_v04.zip",
+      "bytes": 14347459,
+      "sha256": "a21b5cba16c892d79ff9e5c971cbc4ec9d7930d7c5300a8ba4f8af4950bd7163"
+    },
+    {
+      "path": "archives/DS2_Reviewed_Translation_Project.zip",
+      "bytes": 795463,
+      "sha256": "b1dcd6cc2f30921b5c169b4770db9c9421464ea1f74e26b41a81d6a4605db42b"
+    },
+    {
+      "path": "archives/DS2_Tool_UI_Backup_v03.zip",
+      "bytes": 2370135,
+      "sha256": "05aa4876fa7c49eee41d6bffb94d99a4cb42beb66bf0a4de54e6f991e9f3ec75"
+    },
+    {
+      "path": "archives/DS2_VIV_Merger.zip",
+      "bytes": 3546878,
+      "sha256": "cdb4a98276c20d42ef308282562e376f696be8c01e0e4553a3e9f8cc602803d2"
+    },
+    {
+      "path": "archives/DS2_X360_Console_Test_v01.zip",
+      "bytes": 1104181,
+      "sha256": "355663e890daa36eced874d039ab41b231311622e149dda46575c39c5ca9a1c1"
+    },
+    {
+      "path": "archives/DS2_X360_NewGame_v02.zip",
+      "bytes": 961133,
+      "sha256": "edde3cac308b8765a83bd540d931d238b33a1a060f6dbe11c89b95e1dfc85dc9"
+    },
+    {
+      "path": "archives/DS2_X360_Text_Font_Workbench.zip",
+      "bytes": 1183266,
+      "sha256": "cea14d8bfd8ad3d4e2a876ed1e0a5763c1b9ee5cd84f72f6e2d2abc71057f0fc"
+    },
+    {
+      "path": "archives/Switch_DS2_Xbox360_Localization_Tool.zip",
+      "bytes": 3546976,
+      "sha256": "d7992cad4ee8f78b84cdd8af2700c1585f5e78ea114637f71e84d844c7d43bb8"
+    },
+    {
+      "path": "current/v0.4/Licenses/NotoSansSC_OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "current/v0.4/Replace/8CA715C3",
+      "bytes": 262144,
+      "sha256": "75a7600c6286c9b173c5dca7e4a47247bb5c1d884931d3c6ea2c2f6a4e77f4b7"
+    },
+    {
+      "path": "current/v0.4/Replace/text_assets/text_assets_global.str",
+      "bytes": 4325376,
+      "sha256": "6125a9065ffc1aafcb11f29f9feafd913f4e2eb4258d8f139093177fd36d087c"
+    },
+    {
+      "path": "current/v0.4/Replace/text_assets/text_assets_global.toc",
+      "bytes": 2048,
+      "sha256": "b1878ba2cb13e8dcc7633330c1d6ad03254d5dc6098d7688c106f2891492588e"
+    },
+    {
+      "path": "current/v0.4/Reports/engine_checks.json",
+      "bytes": 678,
+      "sha256": "d923e75c312e31acc1e79ee5d6f5e5c3a78f63e65f3b7564af04deb0924f03e4"
+    },
+    {
+      "path": "current/v0.4/Reports/font_checks.json",
+      "bytes": 877,
+      "sha256": "0905bce7ed2af00d64b38d82d1c886972ea294ed03ed7e5d0355d1d755840a31"
+    },
+    {
+      "path": "current/v0.4/Reports/font_preview.png",
+      "bytes": 12990,
+      "sha256": "f3f229611e6db0b7eae0ef21277d7be5a737cf4969f5781e03aaf0945e6552f1"
+    },
+    {
+      "path": "current/v0.4/SHA256.json",
+      "bytes": 2901,
+      "sha256": "4a8caf87e91c9c7bb2639ce3884651f2b9948b6a7adb4084ad8c086238855233"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_0.bin",
+      "bytes": 262144,
+      "sha256": "d55a87a48d6d50490f44ac4453a4b653c00ee821c8c7cd5924cc0adab2d50f27"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_1.bin",
+      "bytes": 524288,
+      "sha256": "6e366d37f32fd631a49497330e67589ed1865e589696d904c46a900d828ea7ba"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_2.bin",
+      "bytes": 2048,
+      "sha256": "e9dead47f38cece3c7efc33a9fe1e384faa09c410171fa4c4412250e545dc9b5"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_3.bin",
+      "bytes": 262144,
+      "sha256": "75a7600c6286c9b173c5dca7e4a47247bb5c1d884931d3c6ea2c2f6a4e77f4b7"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_4.bin",
+      "bytes": 4325376,
+      "sha256": "6125a9065ffc1aafcb11f29f9feafd913f4e2eb4258d8f139093177fd36d087c"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_5.bin",
+      "bytes": 2048,
+      "sha256": "b1878ba2cb13e8dcc7633330c1d6ad03254d5dc6098d7688c106f2891492588e"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_6.bin",
+      "bytes": 262144,
+      "sha256": "985bcdc6845504c2c5a38997b16e436e8c35d61f8ac1a947bc98b952d70f25fe"
+    },
+    {
+      "path": "current/v0.4/Source/assets/data_7.bin",
+      "bytes": 524288,
+      "sha256": "0fa028370d3443c9009e4374b3e0b07b06fd53266874261868bb7a847904bfcc"
+    },
+    {
+      "path": "current/v0.4/Source/build.py",
+      "bytes": 596,
+      "sha256": "77f3527466e099001f105b6ea0ef6865e46e27648081bf6e7d32fedf3bb2073a"
+    },
+    {
+      "path": "current/v0.4/Source/payload_v04.h",
+      "bytes": 882,
+      "sha256": "ce133e63f1d7992eb803aa20c2b20859ddc8d55edfbec78c21677f93495b97c3"
+    },
+    {
+      "path": "current/v0.4/Source/viv_native_v04.c",
+      "bytes": 19103,
+      "sha256": "b42c6c357a0628fd9030df484da5d8171d2d875364cad7e7fba66e6ae5b157d6"
+    },
+    {
+      "path": "current/v0.4/Source/说明.txt",
+      "bytes": 311,
+      "sha256": "36a1d5467807519eec057556aeaed6604aa115eca4f33c00c56cd53df5e1518c"
+    },
+    {
+      "path": "current/v0.4/Switch 死亡空间2 xbox360版 汉化工具.exe",
+      "bytes": 6467072,
+      "sha256": "8278ef947fe3688ce5b54b62ced1469a1f168507464a8b2052b58a21372aaa65"
+    },
+    {
+      "path": "current/v0.4/Translation/english_original.lh2",
+      "bytes": 351220,
+      "sha256": "080dc4cf580229c63a64e5d27aa75c5d517c3d001ddc27d9405dbd206fcd05fa"
+    },
+    {
+      "path": "current/v0.4/Translation/lh2_text.py",
+      "bytes": 2343,
+      "sha256": "d2b4ee65805b4828ddd8aa1dc7701f21c781c93410313d4b45d423cf915b3901"
+    },
+    {
+      "path": "current/v0.4/Translation/terminology_changes.json",
+      "bytes": 11701,
+      "sha256": "971bdf7e126b43b0ae89bd63098d17e4f8f8475019a888a8970074a994ebc1cf"
+    },
+    {
+      "path": "current/v0.4/Translation/translation_audit.json",
+      "bytes": 521,
+      "sha256": "0b0713ed80665b9519c24f9437dd6952722d0d52336b360c1aa4ebf268a4a899"
+    },
+    {
+      "path": "current/v0.4/Translation/zh_CN_final.json",
+      "bytes": 1657138,
+      "sha256": "305576b20d4312f65813478ac58822bd5b102f5dba2d5c2db0701a29f587b7fb"
+    },
+    {
+      "path": "current/v0.4/Translation/zh_CN_final.lh2",
+      "bytes": 336241,
+      "sha256": "79c80ef23b76365be89b3f5ad7a33f7c174f445bdf60a6b778f23ef2ab8ae049"
+    },
+    {
+      "path": "current/v0.4/Translation/术语表.txt",
+      "bytes": 508,
+      "sha256": "2da885a79aa59d007a2aa120e60f3570d0ad72e17b67359ba9e15a2360f33ca2"
+    },
+    {
+      "path": "current/v0.4/使用说明.txt",
+      "bytes": 3670,
+      "sha256": "c18b414d1e8ef0ac09eb615b42aa63271098777a901a9e032e9b0034e4d3fb9e"
+    },
+    {
+      "path": "current/v0.4/检查报告.txt",
+      "bytes": 933,
+      "sha256": "e8a40baeb7cc9702f0e1cabff4b7467d593a3a361823dd3a3d659074b07df692"
+    },
+    {
+      "path": "docs/步骤与进度.md",
+      "bytes": 4281,
+      "sha256": "56959164fe3a957d3e3ea6890474a6fb0a314bca4930d144935e8532355cbedd"
+    },
+    {
+      "path": "inputs/8CA715C3",
+      "bytes": 262144,
+      "sha256": "d55a87a48d6d50490f44ac4453a4b653c00ee821c8c7cd5924cc0adab2d50f27"
+    },
+    {
+      "path": "inputs/Dead Space 2 [053937127D221000][v0].nsp",
+      "bytes": 248024,
+      "sha256": "7ace8cc5a1fbdf5ddff0a75fc60b5b42023dbfe9b520da32285b047c9bb0a7c3"
+    },
+    {
+      "path": "inputs/ds2-nx.nro",
+      "bytes": 49205496,
+      "sha256": "4714099529fd9364c76d702274596381115071b31a4189e7abf6983cc8fa1b09"
+    },
+    {
+      "path": "inputs/死亡空间2-disc1-bigfile0.viv.zip",
+      "bytes": 351021,
+      "sha256": "7ef2cd776b9b7611496dccb50ddf206b9ff22a019e88ad7a370ab295eae88d4d"
+    },
+    {
+      "path": "inputs/死亡空间2-disc2-bigfile0.viv.zip",
+      "bytes": 489964,
+      "sha256": "329ed78c531f7664c86986b0f5842f91d12d67de0efc91b6f8858e813cd35d8a"
+    },
+    {
+      "path": "inputs/死亡空间2.nsp",
+      "bytes": 269016,
+      "sha256": "c821de1e9e07ea97385ba25a24aa6b37944ee303c1675e8a5a40b33afab3e04b"
+    },
+    {
+      "path": "translation-final/SHA256.json",
+      "bytes": 987,
+      "sha256": "44faf713e4cf85c6035afa3e0907705a7b07fdef7de73ddba783229cfb01b7b5"
+    },
+    {
+      "path": "translation-final/required_chinese_characters.txt",
+      "bytes": 5892,
+      "sha256": "23267e9ed654b0f8c76d703b3f2df92543516c842fe89b8795672d27c2908e32"
+    },
+    {
+      "path": "translation-final/tools/lh2_text.py",
+      "bytes": 2343,
+      "sha256": "d2b4ee65805b4828ddd8aa1dc7701f21c781c93410313d4b45d423cf915b3901"
+    },
+    {
+      "path": "translation-final/tools/rebuild_final.py",
+      "bytes": 2462,
+      "sha256": "782bbfd2d50f3e7027f1de08dbe5d27cb7af32419ce03c92559539c23df56d9d"
+    },
+    {
+      "path": "translation-final/translation/english_original.lh2",
+      "bytes": 351220,
+      "sha256": "080dc4cf580229c63a64e5d27aa75c5d517c3d001ddc27d9405dbd206fcd05fa"
+    },
+    {
+      "path": "translation-final/translation/translation_bilingual.csv",
+      "bytes": 838481,
+      "sha256": "8dd6fce451821d91f70fd0d8ad77467567f3dd7262cbb2c743c7216792a852b4"
+    },
+    {
+      "path": "translation-final/translation/zh_CN_final.json",
+      "bytes": 1657174,
+      "sha256": "5d69f8739d5042a11cb54a6c6b3e68781fa166969af1f8494a35eb4ae34d550c"
+    },
+    {
+      "path": "translation-final/translation/zh_CN_final.lh2",
+      "bytes": 336277,
+      "sha256": "d7eb7e6a191cbb678790e7dc17966e128899d78aecac35dd703a6e6b6d630ce4"
+    },
+    {
+      "path": "translation-final/validation_report.json",
+      "bytes": 791,
+      "sha256": "091290ce92fcbbef7b5bce9fdb7063aaada9b8664afa6445511f9a40fe3c5a67"
+    },
+    {
+      "path": "translation-final/使用说明.txt",
+      "bytes": 2636,
+      "sha256": "7ab4dec373d74e5898a8ceb86aacc56506fe0259327f72609032a500c48bd97f"
+    },
+    {
+      "path": "translation-final/术语表.txt",
+      "bytes": 508,
+      "sha256": "2da885a79aa59d007a2aa120e60f3570d0ad72e17b67359ba9e15a2360f33ca2"
+    }
+  ]
+}
