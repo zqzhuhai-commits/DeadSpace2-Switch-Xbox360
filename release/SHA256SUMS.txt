@@ -1,0 +1,2 @@
+a21b5cba16c892d79ff9e5c971cbc4ec9d7930d7c5300a8ba4f8af4950bd7163  DS2_Localization_Tool_v04.zip
+7205b914f96e2b9a932b9411b8f6584b324af6469f915a099343da35b9130186  DS2_Chinese_Translation_Final.zip

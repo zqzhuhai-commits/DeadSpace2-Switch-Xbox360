@@ -2,12 +2,16 @@
 
 本仓库统一保存现有工程、工具、译稿、输入附件和操作步骤。归档日期：2026-10-24（北京时间）。
 
-**当前为 v0.4 实机验证构建，尚未通过完整 VIV 与 Switch/Xbox 360 实机验收。**
+**v0.4 正式发布：用户已确认实机测试通过（2026-10-24）。**
+
+实机通过状态依据用户反馈；未提供设备型号、游戏版本及逐项测试记录。原包内的“待实机验证”说明为发布前记录，最新状态见 [实机验证记录](docs/实机验证记录.md)。
 
 ## 下载
 
-- [v0.4 完整工具包（Windows EXE、源码、译稿、字体资源和说明）](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/raw/refs/heads/main/archives/DS2_Localization_Tool_v04.zip)
-- [最终翻译资源原包](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/raw/refs/heads/main/archives/DS2_Chinese_Translation_Final.zip)
+[正式发布页 v0.4](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/releases/tag/v0.4)
+
+- [v0.4 完整工具包（Windows EXE、源码、译稿、字体资源和说明）](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/releases/download/v0.4/DS2_Localization_Tool_v04.zip)
+- [最终翻译资源原包](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/releases/download/v0.4/DS2_Chinese_Translation_Final.zip)
 - [全部仓库文件 ZIP](https://github.com/zqzhuhai-commits/DeadSpace2-Switch-Xbox360/archive/refs/heads/main.zip)
 
 ## 文件导航

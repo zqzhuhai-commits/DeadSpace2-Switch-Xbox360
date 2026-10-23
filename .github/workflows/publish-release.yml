@@ -1,0 +1,35 @@
+name: Publish official localization release
+on:
+  push:
+    paths:
+      - 'release/version.txt'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: official-localization-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release archives
+        working-directory: archives
+        run: sha256sum --check ../release/SHA256SUMS.txt
+      - name: Publish v0.4 with original verified files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          version="$(cat release/version.txt)"
+          test "$version" = 'v0.4'
+          gh release create "$version" \
+            --target "$GITHUB_SHA" \
+            --title 'Switch 死亡空间2 xbox360版 汉化工具 v0.4 正式版' \
+            --notes-file release/RELEASE_NOTES.md \
+            --latest \
+            archives/DS2_Localization_Tool_v04.zip \
+            archives/DS2_Chinese_Translation_Final.zip \
+            release/SHA256SUMS.txt \
+            release/RELEASE_NOTES.md

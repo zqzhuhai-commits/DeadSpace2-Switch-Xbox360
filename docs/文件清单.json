@@ -3,14 +3,24 @@
   "timezone": "Asia/Shanghai",
   "files": [
     {
+      "path": ".github/workflows/finish-project-upload.yml",
+      "bytes": 1572,
+      "sha256": "8b6395a910d16a12046077d5eaf333746c2d9a713dabbf900b8e52368035ad9e"
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "bytes": 1120,
+      "sha256": "29417126ba6fc8b504cd62c45b563d8da52f34720706345f9c5a006f3c512e8f"
+    },
+    {
       "path": ".gitignore",
       "bytes": 110,
       "sha256": "813f771d6c19b7581e67755d73e80409c98efde4d21eb5d4ecb2032e257f3094"
     },
     {
       "path": "README.md",
-      "bytes": 2617,
-      "sha256": "9a10d2eaa09ad28327babd8029a3cb881efd1740974f9ae94c1dd24940ec04e8"
+      "bytes": 2916,
+      "sha256": "9b2cc1635d6c1868e8917ee279873a2f99ef089038d470c86c1c582b3b05810a"
     },
     {
       "path": "archives/DS2_Chinese_Translation_Final.zip",
@@ -208,9 +218,14 @@
       "sha256": "e8a40baeb7cc9702f0e1cabff4b7467d593a3a361823dd3a3d659074b07df692"
     },
     {
+      "path": "docs/实机验证记录.md",
+      "bytes": 820,
+      "sha256": "adf2998bcc8c13a61a6ed47f84930bdace3457ec1d60f2276c7fb8677fa27186"
+    },
+    {
       "path": "docs/步骤与进度.md",
-      "bytes": 4281,
-      "sha256": "56959164fe3a957d3e3ea6890474a6fb0a314bca4930d144935e8532355cbedd"
+      "bytes": 4753,
+      "sha256": "3ee70ee60788cb71a21a9335cc42aad198dacefd305222f8200bb5260999c96c"
     },
     {
       "path": "inputs/8CA715C3",
@@ -241,6 +256,21 @@
       "path": "inputs/死亡空间2.nsp",
       "bytes": 269016,
       "sha256": "c821de1e9e07ea97385ba25a24aa6b37944ee303c1675e8a5a40b33afab3e04b"
+    },
+    {
+      "path": "release/RELEASE_NOTES.md",
+      "bytes": 2384,
+      "sha256": "13688ddbb1d28fb076a713a2b6f64804d53a232ebe93910a37addc597a0c96a5"
+    },
+    {
+      "path": "release/SHA256SUMS.txt",
+      "bytes": 196,
+      "sha256": "2afeb658ab6cd79ceb9b0a27d4757f25dad065731a5f2e32309ed166d55a6ca3"
+    },
+    {
+      "path": "release/version.txt",
+      "bytes": 5,
+      "sha256": "1bcff81240c39522912bbb533beaf753029a7b75ae1843a5c5ea64fc229d149b"
     },
     {
       "path": "translation-final/SHA256.json",
